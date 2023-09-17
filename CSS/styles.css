@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+header {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: red;
+}
+
+main {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+aside {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: green;
+}
+
+footer {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: yellow;
+}
