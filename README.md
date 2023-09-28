@@ -1,5 +1,5 @@
 <h1>Layout Design</h1>
-  <img src="img/Captura de Tela (39).png">
+  <img src="img/Captura de Tela (40).png">
 
 <h2>Project Deploy</h2>
  <a href="https://display-design-aiu5-uteulmzv6-lucaslandivar.vercel.app" target="_blank">Click here</a>
