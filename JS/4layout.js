@@ -25,10 +25,10 @@ closeMenu.addEventListener("click", () => {
     }, 200)
 });
 
-// !3layout.js
+// !4layout.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    const copyCssButton = document.getElementById('thirdLayout');
+    const copyCssButton = document.getElementById('fourLayout');
   
     // TODO: Função para copiar o código CSS especificado para a área de transferência
     function copyCssToClipboard() {
@@ -62,7 +62,7 @@ a {
 /* *Header */
 header {
     flex: 1 1 100vw;
-    height: 100px;
+    /* ?height: 100px; */
 }
 
 header #logo {
@@ -95,7 +95,16 @@ nav a {
 /* *Main */
 main {
     flex: 20 1 500px;
-    height: calc(100vh - 224px);
+    /* ?height: calc(100vh - 224px); */
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+main section {
+    width: 100%;
+    height: 1000px;
+    margin: 10px;
+    background: linear-gradient(#9a9a9a, #5a5a5a, #1a1a1a);
 }
 
 /* *Aside */
@@ -106,18 +115,26 @@ aside {
 /* *Footer */
 footer {
     flex: 1 1 100vw;
-    height: 100px;
+    /* ?height: 100px; */
 }
 
 /* !Responsividade */
 @media only screen and (max-width: 923px) {
+    header {
+        order: 0;
+    }
+    
     main {
-        height: calc(100vh - 330px);
+        order: 1;
     }
 
     aside {
         flex: 1 1 100vw;
-        height: 100px;
+        order: 2;   
+    }
+
+    footer {
+        order: 3;
     }
 }
 
@@ -140,7 +157,6 @@ footer {
         position: fixed;
         flex-direction: column;
         width: 100vw;
-        height: 100vh;
         background: rgba(255, 255, 255, 0.8);
         align-items: center;
         justify-content: center;
