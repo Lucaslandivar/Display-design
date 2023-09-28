@@ -27,7 +27,7 @@ a {
 /* *Header */
 header {
     flex: 1 1 100vw;
-    height: 100px;
+    /* ?height: 100px; */
 }
 
 header #logo {
@@ -60,7 +60,7 @@ nav a {
 /* *Main */
 main {
     flex: 20 1 500px;
-    height: calc(100vh - 224px);
+    /* ?height: calc(100vh - 224px); */
     flex-wrap: wrap;
     overflow: auto;
 }
@@ -80,7 +80,7 @@ aside {
 /* *Footer */
 footer {
     flex: 1 1 100vw;
-    height: 100px;
+    /* ?height: 100px; */
 }
 
 /* !Responsividade */

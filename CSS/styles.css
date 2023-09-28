@@ -170,4 +170,37 @@ footer {
   .footer-content {
     font-size: 14px;
   }
-  
+
+/* !Responsividade */
+
+/* *Responsividade para Tablets */
+@media only screen and (max-width: 768px) {
+  .layout-title {
+    font-size: 1.2rem;
+  }
+
+  #navbar {
+    flex-direction: column;
+  }
+
+  #main-section {
+    padding: 10px;
+    margin-top: 20px;
+  }
+}
+
+/* *Responsividade para Celular */
+@media only screen and (max-width: 480px) {
+  .layout-title {
+    font-size: 1rem;
+  }
+
+  #navbar {
+    flex-direction: column;
+  }
+
+  #main-section {
+    padding: 5px;
+    margin-top: 10px;
+  }
+}
